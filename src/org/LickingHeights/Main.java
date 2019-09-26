@@ -8,6 +8,10 @@ public class Main {
         double a,b,c,disciriminany,AxisOfSymmetry,x,y;
         String ParabolaFacing;
         //todo initialize manually
+        a=5;
+        b=3;
+        c=1;
+        
 
         //todo calculations
 
