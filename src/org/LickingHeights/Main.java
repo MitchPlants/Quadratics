@@ -16,7 +16,8 @@ public class Main {
         AxisOfSymmetry = -b/(2*a);
         Disciriminant = (b*b)-4*(a*c);
         //todo print results
-
+        System.out.println("Axis of Symmetry: "+AxisOfSymmetry);
+        System.out.println("Discriminant: "+Disciriminant);
         //todo check accuracy
 
         //todo initialize for scanner and redo the initialized area
