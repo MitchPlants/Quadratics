@@ -1,5 +1,7 @@
 package org.LickingHeights;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,10 +9,18 @@ public class Main {
         //todo declare variables a, b, c, discriminant, axis of symmetry, parabla facing, x, y
         double a,b,c,Disciriminant,AxisOfSymmetry,x,y;
         String ParabolaFacing;
+        Scanner Radar;
         //todo initialize manually
-        a=5;
-        b=3;
-        c=1;
+        Radar = new Scanner(System.in);
+        System.out.println("Give me an a");
+        a - Radar.nextDouble();
+        System.out.println("Give me an b");
+        b = Radar.nextDouble();
+        System.out.println("Give me an c");
+        c = Radar.nextDouble();
+//        a=5;
+//        b=3;
+//        c=1;
         //todo calculations
 
         AxisOfSymmetry = -b/(2*a);
@@ -26,8 +36,6 @@ public class Main {
         //todo print results
         System.out.println("Axis of Symmetry: "+AxisOfSymmetry);
         System.out.println("Discriminant: "+Disciriminant);
-        //todo check accuracy
-
         //todo initialize for scanner and redo the initialized area
 
         //todo double check results
